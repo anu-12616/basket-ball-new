@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basket ball score counter</title>
 </head>
+
 <body>
-    <div>
-    <h1>anusha</h1>
-</div>
-<div>
-    <h2>anusha is good girl</h2>
-</div>
+    <div class="container">
+        <h1 class="text"></h1>
+        <div class="scoreboard">
+            <div class="team-container">
+                <h2 class="text">Home</h2>
+                <div class="one">
+                    <p class="pts" id="home-pts">0</p>
+                    <p class="pts-shadow">000</p>
+                </div>
+                <div class="two">
+                    <button onclick="homeAddPoint()" id="one-pt">+1</button>
+                    <button onclick="homeAddTwoPoints()" id="two-pt">+2</button>
+                    <button onclick="homeAddThreePoints()" id="three-pt">+3</button>
+                </div>
+            </div><!--one team-->
+
+        </div>
+    </div>
 </body>
+
 </html>
